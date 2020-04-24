@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+ <servlet>
+ 	<servlet-name>abc</servlet-name>
+ 	<servlet-class>First</servlet-class>
+ </servlet>
+
+ <servlet>
+ 	<servlet-name>def</servlet-name>
+ 	<servlet-class>Second</servlet-class>
+ </servlet>
+
+ <servlet>
+ 	<servlet-name>xyz</servlet-name>
+ 	<servlet-class>Three</servlet-class>
+ </servlet>
+
+ <servlet>
+ 	<servlet-name>pqr</servlet-name>
+ 	<servlet-class>Square</servlet-class>
+ </servlet>
+
+ <servlet>
+ 	<servlet-name>a</servlet-name>
+ 	<servlet-class>FourAdd</servlet-class>
+ </servlet>
+ 
+  <servlet>
+ 	<servlet-name>b</servlet-name>
+ 	<servlet-class>FourSub</servlet-class>
+ </servlet>
+ 
+  <servlet>
+ 	<servlet-name>c</servlet-name>
+ 	<servlet-class>FourMul</servlet-class>
+ </servlet>
+ 
+ 
+  <servlet>
+ 	<servlet-name>d</servlet-name>
+ 	<servlet-class>FourDiv</servlet-class>
+ </servlet>
+ 
+ 
+ <context-param>
+ 	<param-name>name</param-name>
+ 	<param-value>Harivansh</param-value>
+ </context-param>
+ 
+ 
+<servlet-mapping>  
+<servlet-name>abc</servlet-name>  
+<url-pattern>/first</url-pattern>  
+</servlet-mapping>
+
+<servlet-mapping>  
+<servlet-name>def</servlet-name>  
+<url-pattern>/second</url-pattern>  
+</servlet-mapping>
+
+<servlet-mapping>  
+<servlet-name>xyz</servlet-name>  
+<url-pattern>/three</url-pattern>  
+</servlet-mapping>
+
+<servlet-mapping>  
+<servlet-name>pqr</servlet-name>  
+<url-pattern>/sq</url-pattern>  
+</servlet-mapping>
+ 
+<servlet-mapping>  
+<servlet-name>a</servlet-name>  
+<url-pattern>/fouradd</url-pattern>  
+</servlet-mapping>
+
+<servlet-mapping>  
+<servlet-name>b</servlet-name>  
+<url-pattern>/foursub</url-pattern>  
+</servlet-mapping>
+
+<servlet-mapping>  
+<servlet-name>c</servlet-name>  
+<url-pattern>/fourmul</url-pattern>  
+</servlet-mapping>
+
+<servlet-mapping>  
+<servlet-name>d</servlet-name>  
+<url-pattern>/fourdiv</url-pattern>  
+</servlet-mapping>
+ 
+</web-app>
